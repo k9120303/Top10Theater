@@ -1,0 +1,80 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Top $10 Theater</title>
+	  <link rel = "stylesheet" type = "text/css" href = "style2.css">
+	  <script>
+	  
+	  function start(){
+		var button = document.getElementById("button");
+		button.addEventListener("click", caculate, false);
+	  }
+	  
+	  function caculate(){
+		var a = document.getElementById("original").value;
+		a = "$ " +a*2.797243571;
+		change.innerHTML = a;
+	  }
+	  
+	  window.addEventListener("load", start, false);
+	  </script>
+   </head>
+   <body>
+    <a name="top"></a>
+   	<p><a class = "nodec" href="home.html">Top $10 Theater</a></p>
+	<div>
+      <nav>通膨後票房前十大電影
+         <ul>
+			<li><a class = "nodec3" href="01.html">1.亂世佳人</a></li>
+			<li><a class = "nodec3" href="02.html">2.星際大戰四部曲：曙光乍現</a></li>
+			<li><a class = "nodec3" href="03.html">3.真善美</a></li>
+			<li><a class = "nodec3" href="04.html">4.E.T.外星人</a></li>
+			<li><a class = "nodec3" href="05.html">5.鐵達尼號</a></li>
+			<li><a class = "nodec3" href="06.html">6.十誡</a></li>
+			<li><a class = "nodec3" href="07.html">7.大白鯊</a></li>
+			<li><a class = "nodec3" href="08.html">8.齊瓦哥醫生</a></li>
+			<li><a class = "nodec3" href="09.html">9.大法師</a></li>
+			<li><a class = "nodec3" href="10.html">10.白雪公主</a></li>
+         </ul>
+	  </nav>
+	  <nav>電影票房相關網站
+		 <ul>
+			<li><a class = "nodec3" href = "http://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a></li>
+			<li><a class = "nodec3" href = "http://www.atmovies.com.tw/home/" target="_blank">開眼電影網</a></li>
+			<li><a class = "nodec3" href = "http://dorama.info/jp/drama/drama_index.php?dk=51" target="_blank">偶像劇場</a></li>
+            <li><a class = "nodec3" href = "http://www.cbooo.cn/" target="_blank">中國票房</a></li>
+			<li><a class = "nodec3" href = "https://www.ptt.cc/bbs/boxoffice/index.html" target="_blank">PTT Boxoffice版</a></li>
+		 </ul>
+      </nav>
+	  <nav>關於本站
+		<ul>
+			<li><a class = "nodec3" href="hope.html">本站簡介</a></li>
+			<li><a class = "nodec3" href="aboutme.html">作者介紹</a></li>
+			<li><a class = "nodec3" href="https://cloud.ind.ntou.edu.tw/owncloud/index.php/s/HHjmdmgaZ1dze6w/download" target="_blank">網站說明文件下載</a></li>
+		</ul>
+	  </nav>
+	</div>
+	<br>
+	<p class = "text">
+	<img src="04.jpg" width="300" height="444" alt="E.T.:The Extra-Terrestrial">
+	<embed src="music/E.T.The Extra-Terrestrial.mp3" autostart="true" hidden="false" loop="true">
+	<br><br><op>E.T.外星人（E.T.:The Extra-Terrestrial）—1982</op><br><br>
+	《E.T.外星人》（英語：E.T. the Extra-Terrestrial）是一部1982年的美國科幻電影，由史蒂芬·史匹柏執導
+	並與凱薩琳·甘迺迪一起擔任製片人，梅麗莎·馬西森編劇，亨利·托馬斯、迪·沃倫斯、勞勃·麥克納夫頓（Robert MacNaughton）
+	、德魯·巴里摩爾和彼德·考約特主演。講述了名叫埃利奧特的內向男孩與被困在地球的善良外星人成為朋友的故事。
+	埃利奧特給外星人起名叫「E.T.」（英文「extraterrestrial」的簡稱，意為外星人），他與自己的哥哥和妹妹聯合起來
+	幫助外星人找到回家的路，並且還要避免被母親及政府發現。<br><br>
+	本片的創作理念源於史匹柏在父母於1960年離婚後想像出來的朋友。1980年，他與馬西森會面並在已陷入僵局的科幻恐怖片專案
+	《夜空》（Night Skies）基礎上發展出新的故事。影片於1981年9月到12月期間在加利福尼亞州進行攝製，拍攝成本為1050萬美元。
+	與其他大部分電影不同，本片基本上是按時間順序拍攝的，這樣有利於小演員們給出更具可信度的演出。<br><br>
+	影片於1982年6月11日經環球影業發行，是一部成功的大片，票房收入超越《星球大戰》，成為當時的歷史電影票房總冠軍，
+	這個紀錄接下來保持了十年之久才於1993年被史匹柏導演的另一部電影《侏羅紀公園》打破。評論家稱讚這是一個永恆的友情故事，
+	爛蕃茄的一項調查也將其評為有史以來最偉大的科幻片。電影於1985年再次上映，後又於2002年為紀念影片誕生20周年重新發行，
+	其中有部分鏡頭有所改動，還增加了一些內容。<br><br><br>
+	<label>通貨膨脹計算器（1982-2015，單位：美元）：
+	<input id = "original" type = "text" size = "15" value = "435110554">
+	<input id = "button" type = "button" value = "轉換"><br><br><div class = "change" id = "change"></div><br></label>
+	<iframe width="960" height="540" src="https://www.youtube.com/embed/qYAETtIIClk" frameborder="0" allowfullscreen></iframe></p>
+	<a class = "nodec2" href="#top">　　　按我回頂部　　　</a>
+   </body>
+</html>

@@ -1,0 +1,76 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Top $10 Theater</title>
+	  <link rel = "stylesheet" type = "text/css" href = "style2.css">
+	  <script>
+	  
+	  function start(){
+		var button = document.getElementById("button");
+		button.addEventListener("click", caculate, false);
+	  }
+	  
+	  function caculate(){
+		var a = document.getElementById("original").value;
+		a = "$ " +a*3.315125178;
+		change.innerHTML = a;
+	  }
+	  
+	  window.addEventListener("load", start, false);
+	  </script>
+   </head>
+   <body>
+    <a name="top"></a>
+   	<p><a class = "nodec" href="home.html">Top $10 Theater</a></p>
+	<div>
+      <nav>通膨後票房前十大電影
+         <ul>
+			<li><a class = "nodec3" href="01.html">1.亂世佳人</a></li>
+			<li><a class = "nodec3" href="02.html">2.星際大戰四部曲：曙光乍現</a></li>
+			<li><a class = "nodec3" href="03.html">3.真善美</a></li>
+			<li><a class = "nodec3" href="04.html">4.E.T.外星人</a></li>
+			<li><a class = "nodec3" href="05.html">5.鐵達尼號</a></li>
+			<li><a class = "nodec3" href="06.html">6.十誡</a></li>
+			<li><a class = "nodec3" href="07.html">7.大白鯊</a></li>
+			<li><a class = "nodec3" href="08.html">8.齊瓦哥醫生</a></li>
+			<li><a class = "nodec3" href="09.html">9.大法師</a></li>
+			<li><a class = "nodec3" href="10.html">10.白雪公主</a></li>
+         </ul>
+	  </nav>
+	  <nav>電影票房相關網站
+		 <ul>
+			<li><a class = "nodec3" href = "http://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a></li>
+			<li><a class = "nodec3" href = "http://www.atmovies.com.tw/home/" target="_blank">開眼電影網</a></li>
+			<li><a class = "nodec3" href = "http://dorama.info/jp/drama/drama_index.php?dk=51" target="_blank">偶像劇場</a></li>
+            <li><a class = "nodec3" href = "http://www.cbooo.cn/" target="_blank">中國票房</a></li>
+			<li><a class = "nodec3" href = "https://www.ptt.cc/bbs/boxoffice/index.html" target="_blank">PTT Boxoffice版</a></li>
+		 </ul>
+      </nav>
+	  <nav>關於本站
+		<ul>
+			<li><a class = "nodec3" href="hope.html">本站簡介</a></li>
+			<li><a class = "nodec3" href="aboutme.html">作者介紹</a></li>
+			<li><a class = "nodec3" href="https://cloud.ind.ntou.edu.tw/owncloud/index.php/s/HHjmdmgaZ1dze6w/download" target="_blank">網站說明文件下載</a></li>
+		</ul>
+	  </nav>
+	</div>
+	<br>
+	<p class = "text">
+	<img src="02.jpg" width="300" height="444" alt="Star Wars">
+	<embed src="music/Star Wars.mp3" autostart="true" hidden="false" loop="true">
+	<br><br><op>星際大戰四部曲：曙光乍現（Star Wars Episode IV: A New Hope）—1977</op><br><br>
+	《星際大戰》（Star Wars），在1981年後被重新命名為《星際大戰四部曲：曙光乍現》（Star Wars Episode IV: A New Hope），
+	是1977年的美國太空歌劇史詩片，由喬治·盧卡斯編寫及執導，是《星際大戰》系列最初的一集（按劇情排序是第四集）。<br><br>
+	電影由馬克·漢米爾、哈里遜·福特、嘉莉·費雪及亞歷·堅尼斯主演，於1977年5月25日公映，並經過數次變革，
+	分別於1979年、1981年、1982年、1997年、2000年及2004年重新上映。喬治·盧卡斯曾坦言本片即是參考日本黑澤明導演的1958年電影
+	《戰國英豪》（隠し砦の三悪人）所創作出來的。<br><br>劇情重點在反抗軍同盟在莉亞公主（嘉莉·費雪 飾） 的帶動下，
+	計劃企圖摧毀銀河帝國的空間站 — 死星。這次計劃破壞了農場工人路克·天行者（馬克·漢米爾 飾）與世隔絕的生活，
+	他無意間得到一對擁有偷到死星建築計劃的機器人。當帝國開始毀滅性尋找失蹤的機器人，天行者同意陪同絕地大師
+	歐比王·肯諾比（亞歷·堅尼斯 飾）執行返回死星的計劃，並跟反抗軍同盟一起從銀河帝國的暴政中拯救整個銀河系。<br><br><br>
+	<label>通貨膨脹計算器（1977-2015，單位：美元）：
+	<input id = "original" type = "text" size = "15" value = "460998007">
+	<input id = "button" type = "button" value = "轉換"><br><br><div class = "change" id = "change"></div><br></label>
+	<iframe width="960" height="540" src="https://www.youtube.com/embed/vZ734NWnAHA" frameborder="0" allowfullscreen></iframe></p>
+	<a class = "nodec2" href="#top">　　　按我回頂部　　　</a>
+   </body>
+</html>

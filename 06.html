@@ -1,0 +1,77 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Top $10 Theater</title>
+	  <link rel = "stylesheet" type = "text/css" href = "style2.css">
+	  <script>
+	  
+	  function start(){
+		var button = document.getElementById("button");
+		button.addEventListener("click", caculate, false);
+	  }
+	  
+	  function caculate(){
+		var a = document.getElementById("original").value;
+		a = "$ " +a*17.16;
+		change.innerHTML = a;
+	  }
+	  
+	  window.addEventListener("load", start, false);
+	  </script>
+   </head>
+   <body>
+    <a name="top"></a>
+   	<p><a class = "nodec" href="home.html">Top $10 Theater</a></p>
+	<div>
+      <nav>通膨後票房前十大電影
+         <ul>
+			<li><a class = "nodec3" href="01.html">1.亂世佳人</a></li>
+			<li><a class = "nodec3" href="02.html">2.星際大戰四部曲：曙光乍現</a></li>
+			<li><a class = "nodec3" href="03.html">3.真善美</a></li>
+			<li><a class = "nodec3" href="04.html">4.E.T.外星人</a></li>
+			<li><a class = "nodec3" href="05.html">5.鐵達尼號</a></li>
+			<li><a class = "nodec3" href="06.html">6.十誡</a></li>
+			<li><a class = "nodec3" href="07.html">7.大白鯊</a></li>
+			<li><a class = "nodec3" href="08.html">8.齊瓦哥醫生</a></li>
+			<li><a class = "nodec3" href="09.html">9.大法師</a></li>
+			<li><a class = "nodec3" href="10.html">10.白雪公主</a></li>
+         </ul>
+	  </nav>
+	  <nav>電影票房相關網站
+		 <ul>
+			<li><a class = "nodec3" href = "http://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a></li>
+			<li><a class = "nodec3" href = "http://www.atmovies.com.tw/home/" target="_blank">開眼電影網</a></li>
+			<li><a class = "nodec3" href = "http://dorama.info/jp/drama/drama_index.php?dk=51" target="_blank">偶像劇場</a></li>
+            <li><a class = "nodec3" href = "http://www.cbooo.cn/" target="_blank">中國票房</a></li>
+			<li><a class = "nodec3" href = "https://www.ptt.cc/bbs/boxoffice/index.html" target="_blank">PTT Boxoffice版</a></li>
+		 </ul>
+      </nav>
+	  <nav>關於本站
+		<ul>
+			<li><a class = "nodec3" href="hope.html">本站簡介</a></li>
+			<li><a class = "nodec3" href="aboutme.html">作者介紹</a></li>
+			<li><a class = "nodec3" href="https://cloud.ind.ntou.edu.tw/owncloud/index.php/s/HHjmdmgaZ1dze6w/download" target="_blank">網站說明文件下載</a></li>
+		</ul>
+	  </nav>
+	</div>
+	<br>
+	<p class = "text">
+	<img src="06.jpg" width="300" height="444" alt="The Ten Commandments">
+	<embed src="music/The Ten Commandments.mp3" autostart="true" hidden="false" loop="true">
+	<br><br><op>十誡（The Ten Commandments）—1956</op><br><br>
+	《十誡》（The Ten Commandments）是1956年派拉蒙電影公司製作的一部史詩電影，故事取材自《舊約聖經》的《出埃及記》，
+	講述猶太先知摩西領導以色列人出走埃及，並於接受上帝耶和華頒布的「十誡」的故事。
+	該片導演是西席·地密爾，飾演摩西的是查爾登·希士頓。地密爾亦曾在1923年導演了同名的無聲電影《十誡》。<br><br>
+	講述摩西剛出生時，埃及法老下令殺盡希伯來男嬰的「白色恐怖」時期。摩西的父母不敢私藏，便把他放在籃子裡順流而下，盼有人收養。
+	法老的女兒發現摩西，收為自己的兒子。摩西長大後對埃及人奴役希伯來人越來越看不慣。一次，他失手打死一個欺負希伯來人的埃及人。
+	法老王知道此事後要懲罰摩西，於是失去母親保護的他逃往米甸地居住，開始他四十年的牧羊生涯，併在米甸地結婚生子。
+	其間耶和華將十誡授與摩西，並賜予摩西力量讓其帶領苦難的希伯來人從埃及人的奴役下走出來。
+	在經過一番苦難之後希伯來人在摩西的帶領下終於渡過紅海，在曠野上重建新生活。
+	<br><br><br>
+	<label>通貨膨脹計算器（1956-2015，單位：美元）：
+	<input id = "original" type = "text" size = "15" value = "65500000">
+	<input id = "button" type = "button" value = "轉換"><br><br><div class = "change" id = "change"></div><br></label>
+	<iframe width="960" height="540" src="https://www.youtube.com/embed/EiLmKxiTT3g" frameborder="0" allowfullscreen></iframe></p>
+	<a class = "nodec2" href="#top">　　　按我回頂部　　　</a>
+   </body>
+</html>

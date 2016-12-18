@@ -1,0 +1,78 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Top $10 Theater</title>
+	  <link rel = "stylesheet" type = "text/css" href = "style2.css">
+	  <script>
+	  
+	  function start(){
+		var button = document.getElementById("button");
+		button.addEventListener("click", caculate, false);
+	  }
+	  
+	  function caculate(){
+		var a = document.getElementById("original").value;
+		a = "$ " +a*5.057280206;
+		change.innerHTML = a;
+	  }
+	  
+	  window.addEventListener("load", start, false);
+	  </script>
+   </head>
+   <body>
+    <a name="top"></a>
+   	<p><a class = "nodec" href="home.html">Top $10 Theater</a></p>
+	<div>
+      <nav>通膨後票房前十大電影
+         <ul>
+			<li><a class = "nodec3" href="01.html">1.亂世佳人</a></li>
+			<li><a class = "nodec3" href="02.html">2.星際大戰四部曲：曙光乍現</a></li>
+			<li><a class = "nodec3" href="03.html">3.真善美</a></li>
+			<li><a class = "nodec3" href="04.html">4.E.T.外星人</a></li>
+			<li><a class = "nodec3" href="05.html">5.鐵達尼號</a></li>
+			<li><a class = "nodec3" href="06.html">6.十誡</a></li>
+			<li><a class = "nodec3" href="07.html">7.大白鯊</a></li>
+			<li><a class = "nodec3" href="08.html">8.齊瓦哥醫生</a></li>
+			<li><a class = "nodec3" href="09.html">9.大法師</a></li>
+			<li><a class = "nodec3" href="10.html">10.白雪公主</a></li>
+         </ul>
+	  </nav>
+	  <nav>電影票房相關網站
+		 <ul>
+			<li><a class = "nodec3" href = "http://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a></li>
+			<li><a class = "nodec3" href = "http://www.atmovies.com.tw/home/" target="_blank">開眼電影網</a></li>
+			<li><a class = "nodec3" href = "http://dorama.info/jp/drama/drama_index.php?dk=51" target="_blank">偶像劇場</a></li>
+            <li><a class = "nodec3" href = "http://www.cbooo.cn/" target="_blank">中國票房</a></li>
+			<li><a class = "nodec3" href = "https://www.ptt.cc/bbs/boxoffice/index.html" target="_blank">PTT Boxoffice版</a></li>
+		 </ul>
+      </nav>
+	  <nav>關於本站
+		<ul>
+			<li><a class = "nodec3" href="hope.html">本站簡介</a></li>
+			<li><a class = "nodec3" href="aboutme.html">作者介紹</a></li>
+			<li><a class = "nodec3" href="https://cloud.ind.ntou.edu.tw/owncloud/index.php/s/HHjmdmgaZ1dze6w/download" target="_blank">網站說明文件下載</a></li>
+		</ul>
+	  </nav>
+	</div>
+	<br>
+	<p class = "text">
+	<img src="10.jpg" width="300" height="444" alt="Snow White and the Seven Dwarfs">
+	<embed src="music/Snow White and the Seven Dwarfs.mp3" autostart="true" hidden="false" loop="true">
+	<br><br><op>白雪公主（Snow White and the Seven Dwarfs）—1937</op><br><br>
+	迪士尼1928年推出世界第一部有聲卡通【蒸汽船威利】﹙Steamboat Willie﹚，又於1932年
+	推出世界第一部彩色卡通【花與樹】﹙Flowers and Trees﹚，之後華特迪士尼有一個更大的夢想，
+	他想拍一部完全是動畫的電影，世界第一部動畫電影於是誕生！《格林童話》中白雪公主與七個小矮人的故事可以說是家喻戶曉，
+	華特迪士尼選上這個故事來當他的開天闢地之作！<br><br>
+	許多美國影評還嗤之以鼻認為沒有人會願意花錢看一部都是卡通的電影，幸好本片上映獲得空前成功，
+	在好萊塢 Cathay Circle 戲院演出時獲得名人觀眾﹙包括卓別林、卡萊葛倫、雪莉坦普…等﹚起立鼓掌，
+	片中歌曲“Some Day My Prince Will Come”、“Heigh-Ho”…等等也都風靡一時，成為人們琅琅上口的旋律。
+	《白雪公主》成功開啟動畫史新頁，從此卡通不再只是卡通，而成為動畫！《白雪公主》從此改寫了影史，
+	它不但是世界上第一部動畫電影，其原聲帶更是世界上第一張電影原聲帶！迪士尼的動畫王國從此奠下龍頭地位！
+	本片在1998年被美國電影協會選為本世紀美國百部經典名片之一！<br><br><br>
+	<label>通貨膨脹計算器（1937-2015，單位：美元）：
+	<input id = "original" type = "text" size = "15" value = "184925486">
+	<input id = "button" type = "button" value = "轉換"><br><br><div class = "change" id = "change"></div><br></label>
+	<iframe width="960" height="540" src="https://www.youtube.com/embed/IfePzXxIuvc" frameborder="0" allowfullscreen></iframe></p>
+	<a class = "nodec2" href="#top">　　　按我回頂部　　　</a>
+   </body>
+</html>

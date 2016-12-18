@@ -1,0 +1,59 @@
+		 div			 { width:960px;
+						   margin:0 auto; }
+		 body            { width:960px;
+						   margin:0 auto;
+						   text-align:center;
+						   font-family: 微軟正黑體;
+						   background-color: black;
+						   background-image: url("background.jpg");
+						   background-repeat: repeat;}
+         nav             { font-weight: bold;
+                           color: white;
+                           border: 4px solid RoyalBlue;
+                           text-align: center;
+                           width: 312px;
+                           background-color: RoyalBlue;
+						   float:left; }
+         nav ul          { display: none;
+                           list-style: none;
+                           margin: 0;
+                           padding: 0; }
+         nav:hover ul    { display: block; }
+         nav ul li       { border-top: 4px solid RoyalBlue;
+                           background-color: white;
+                           width: 312px;
+                           color: black; }
+         nav ul li:hover { background-color: PowderBlue; }
+         a:hover		 { color:white; }
+		 a.nodec  		 { text-decoration: none;
+						   color:white; }
+		 a.nodec2  		 { text-decoration: none;
+						   background-color: black;
+						   font-size:25px;
+						   color:white; }
+		 a.nodec3  		 { text-decoration: none;
+						   color:black; }
+		 a.nodec4  		 { text-decoration: none;
+						   color:yellow; }
+		 p				 { background-color: black;
+						   color:white;
+						   font-size:50px;
+						   font-family:ARBERKLEY;
+						   font-weight: bold; 
+						   font-style:italic ;}
+		 p.text          { width:960px;
+						   vertical-align:top;
+						   text-align:left;
+						   font-weight:normal; 
+						   font-style:normal;
+						   font-size:20px;
+						   font-family: 微軟正黑體; }
+		 p.cover img:hover{ width:325;
+						   height:482; }
+		 op				 { width:960px;
+						   vertical-align:top;
+						   text-align:left;
+						   font-weight:bold; 
+						   font-style:italic;
+						   font-size:40px;
+						   font-family:微軟正黑體; }

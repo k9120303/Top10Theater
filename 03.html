@@ -1,0 +1,74 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Top $10 Theater</title>
+	  <link rel = "stylesheet" type = "text/css" href = "style2.css">
+	  <script>
+	  
+	  function start(){
+		var button = document.getElementById("button");
+		button.addEventListener("click", caculate, false);
+	  }
+	  
+	  function caculate(){
+		var a = document.getElementById("original").value;
+		a = "$ " +a*7.700972869;
+		change.innerHTML = a;
+	  }
+	  
+	  window.addEventListener("load", start, false);
+	  </script>
+   </head>
+   <body>
+    <a name="top"></a>
+   	<p><a class = "nodec" href="home.html">Top $10 Theater</a></p>
+	<div>
+      <nav>通膨後票房前十大電影
+         <ul>
+			<li><a class = "nodec3" href="01.html">1.亂世佳人</a></li>
+			<li><a class = "nodec3" href="02.html">2.星際大戰四部曲：曙光乍現</a></li>
+			<li><a class = "nodec3" href="03.html">3.真善美</a></li>
+			<li><a class = "nodec3" href="04.html">4.E.T.外星人</a></li>
+			<li><a class = "nodec3" href="05.html">5.鐵達尼號</a></li>
+			<li><a class = "nodec3" href="06.html">6.十誡</a></li>
+			<li><a class = "nodec3" href="07.html">7.大白鯊</a></li>
+			<li><a class = "nodec3" href="08.html">8.齊瓦哥醫生</a></li>
+			<li><a class = "nodec3" href="09.html">9.大法師</a></li>
+			<li><a class = "nodec3" href="10.html">10.白雪公主</a></li>
+         </ul>
+	  </nav>
+	  <nav>電影票房相關網站
+		 <ul>
+			<li><a class = "nodec3" href = "http://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a></li>
+			<li><a class = "nodec3" href = "http://www.atmovies.com.tw/home/" target="_blank">開眼電影網</a></li>
+			<li><a class = "nodec3" href = "http://dorama.info/jp/drama/drama_index.php?dk=51" target="_blank">偶像劇場</a></li>
+            <li><a class = "nodec3" href = "http://www.cbooo.cn/" target="_blank">中國票房</a></li>
+			<li><a class = "nodec3" href = "https://www.ptt.cc/bbs/boxoffice/index.html" target="_blank">PTT Boxoffice版</a></li>
+		 </ul>
+      </nav>
+	  <nav>關於本站
+		<ul>
+			<li><a class = "nodec3" href="hope.html">本站簡介</a></li>
+			<li><a class = "nodec3" href="aboutme.html">作者介紹</a></li>
+			<li><a class = "nodec3" href="https://cloud.ind.ntou.edu.tw/owncloud/index.php/s/HHjmdmgaZ1dze6w/download" target="_blank">網站說明文件下載</a></li>
+		</ul>
+	  </nav>
+	</div>
+	<br>
+	<p class = "text">
+	<img src="03.jpg" width="300" height="444" alt="The Sound of Music">
+	<embed src="music/The Sound of Music.mp3" autostart="true" hidden="false" loop="true">
+	<br><br><op>真善美（The Sound of Music）—1965</op><br><br>
+	《真善美》（The Sound of Music），是一部改編自瑪麗亞·馮·崔普（Maria von Trapp）的著作《崔普家庭演唱團》
+	（The Story of the Trapp Family Singers）的戲劇作品，最初以音樂劇的形式於百老匯上演，之後被改編成電影，
+	位居北美影史票房第三名，同時也是史上最賣座的歌舞片。<br><br>
+	該劇描述阿爾卑斯山上某處修道院裡的一位實習修女到崔普家擔任教職，然後從贏得孩童們的心，
+	到與單身的男主人相愛、結婚並組家庭樂團，最後又有驚無險的逃離納粹魔掌的故事。其中，該劇的諸多歌曲，
+	如《Do-Re-Mi》、《孤獨的牧羊人》、《小白花》、《My Favorite Things》傳唱至世界各地，並被翻唱成各國語言版本。<br><br><br>
+	<label>通貨膨脹計算器（1965-2015，單位：美元）：
+	<input id = "original" type = "text" size = "15" value = "158671368">
+	<input id = "button" type = "button" value = "轉換"><br><br><div class = "change" id = "change"></div><br></label>
+	<iframe width="960" height="540" src="https://www.youtube.com/embed/UY6uw3WpPzY" frameborder="0" allowfullscreen></iframe></p>
+	<a class = "nodec2" href="#top">　　　按我回頂部　　　</a>
+   </body>
+</html>
